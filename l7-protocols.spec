@@ -1,12 +1,14 @@
+%define		dashver		2005-01-17
+#
 Summary:	Protocol definitions files for l7-filter
 Summary(pl):	Pliki definicji protoko³ów dla l7-filter
 Name:		l7-protocols
-Version:	2004_12_29
+Version:	2005_01_17
 Release:	1
 License:	GPL
 Group:		Applications/Networking
-Source0:	http://dl.sourceforge.net/l7-filter/%{name}-%{version}.tar.gz
-# Source0-md5:	e6ffdaa38ec04f769a45bbff174f79d5
+Source0:	http://dl.sourceforge.net/l7-filter/%{name}-%{dashver}.tar.gz
+# Source0-md5:	4408f27b9f6758589a6694f3c9aeb8c4
 URL:		http://l7-filter.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -23,7 +25,7 @@ takie jak HTTP, MSN Messenger, FTP, Cisco VPN, Fasttrack, DNS,
 Gnutella, Quake, itp.
 
 %prep
-%setup -q
+%setup -qn %{name}-%{dashver}
 
 %install
 rm -rf $RPM_BUILD_ROOT

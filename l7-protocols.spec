@@ -1,12 +1,12 @@
 Summary:	Protocol definitions files for l7-filter
 Summary(pl):	Pliki definicji protoko³ów dla l7-filter
 Name:		l7-protocols
-Version:	2004_09_13
+Version:	2004_12_29
 Release:	1
 License:	GPL
 Group:		Applications/Networking
 Source0:	http://dl.sourceforge.net/l7-filter/%{name}-%{version}.tar.gz
-# Source0-md5:	4e84d5bc97865bea4378644389dcd424
+# Source0-md5:	e6ffdaa38ec04f769a45bbff174f79d5
 URL:		http://l7-filter.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

@@ -17,7 +17,7 @@ Gnutella, Quake, etc.
 
 %description -l pl
 Pliki definicji protoko³ów do u¿ytku przez klasyfikator pakietów Layer
-7. Pliki te zawieraja wyra¿enia regularne które definiuj± protoko³y
+7. Pliki te zawieraj± wyra¿enia regularne, które definiuj± protoko³y
 takie jak HTTP, MSN Messenger, FTP, Cisco VPN, Fasttrack, DNS,
 Gnutella, Quake, itp.
 

@@ -3,7 +3,7 @@
 Summary:	Protocol definitions files for l7-filter
 Summary(pl):	Pliki definicji protoko³ów dla l7-filter
 Name:		l7-protocols
-Version:	2005_01_17
+Version:	2005_01_29
 Release:	1
 License:	GPL
 Group:		Applications/Networking

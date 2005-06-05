@@ -1,14 +1,14 @@
-%define		dashver		2005-04-26
+%define		dashver		2005-06-04
 #
 Summary:	Protocol definitions files for l7-filter
 Summary(pl):	Pliki definicji protoko³ów dla l7-filter
 Name:		l7-protocols
-Version:	2005_04_26
+Version:	2005_06_04
 Release:	1
 License:	GPL
 Group:		Applications/Networking
 Source0:	http://dl.sourceforge.net/l7-filter/%{name}-%{dashver}.tar.gz
-# Source0-md5:	34784daeb04bc2773583ed05a0f3b0c2
+# Source0-md5:	576d1d1be9fa2109986600c3733514db
 URL:		http://l7-filter.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -31,7 +31,7 @@ Gnutella, Quake, itp.
 rm -rf $RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT%{_sysconfdir}/%{name}
-cp -R protocols extra file_types malware weakpatterns $RPM_BUILD_ROOT%{_sysconfdir}/%{name}
+cp -R protocols extra file_types malware $RPM_BUILD_ROOT%{_sysconfdir}/%{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT

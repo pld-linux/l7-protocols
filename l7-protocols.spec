@@ -1,14 +1,14 @@
-%define		dashver		2006-05-21
+%define		dashver		2006-06-03
 #
 Summary:	Protocol definitions files for l7-filter
 Summary(pl):	Pliki definicji protoko³ów dla l7-filter
 Name:		l7-protocols
-Version:	2006_05_21
+Version:	2006_06_03
 Release:	1
 License:	GPL
 Group:		Applications/Networking
 Source0:	http://dl.sourceforge.net/l7-filter/%{name}-%{dashver}.tar.gz
-# Source0-md5:	cb7ef55c3cf874ffbcb489e3794ffa21
+# Source0-md5:	8e3d7383d369765503332e09779a4a58
 URL:		http://l7-filter.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

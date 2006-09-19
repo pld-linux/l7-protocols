@@ -8,7 +8,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Networking
 Source0:	http://dl.sourceforge.net/l7-filter/%{name}-%{dashver}.tar.gz
-# Source0-md5:	8e3d7383d369765503332e09779a4a58
+# Source0-md5:	2496c8e2a3ff2a4fc07a4b144c76ce40
 URL:		http://l7-filter.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

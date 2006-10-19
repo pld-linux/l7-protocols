@@ -1,4 +1,4 @@
-%define		dashver		2006-09-10
+%define		dashver		2006-10-18
 #
 Summary:	Protocol definitions files for l7-filter
 Summary(pl):	Pliki definicji protoko³ów dla l7-filter

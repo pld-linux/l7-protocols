@@ -10,6 +10,7 @@ Group:		Applications/Networking
 Source0:	http://dl.sourceforge.net/l7-filter/%{name}-%{dashver}.tar.gz
 # Source0-md5:	02a928851613eed6f9d52fabe52312d0
 URL:		http://l7-filter.sourceforge.net/
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description

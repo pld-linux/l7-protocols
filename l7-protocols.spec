@@ -1,7 +1,7 @@
 %define		dashver		2007-01-14
 #
 Summary:	Protocol definitions files for l7-filter
-Summary(pl):	Pliki definicji protoko≥Ûw dla l7-filter
+Summary(pl.UTF-8):   Pliki definicji protoko≈Ç√≥w dla l7-filter
 Name:		l7-protocols
 Version:	2007_01_14
 Release:	1
@@ -19,9 +19,9 @@ Classifier. These files are regular expressions that define Internet
 protocols such as HTTP, MSN Messenger, FTP, Cisco VPN, Fasttrack, DNS,
 Gnutella, Quake, etc.
 
-%description -l pl
-Pliki definicji protoko≥Ûw do uøytku przez klasyfikator pakietÛw Layer
-7. Pliki te zawieraj± wyraøenia regularne, ktÛre definiuj± protoko≥y
+%description -l pl.UTF-8
+Pliki definicji protoko≈Ç√≥w do u≈ºytku przez klasyfikator pakiet√≥w Layer
+7. Pliki te zawierajƒÖ wyra≈ºenia regularne, kt√≥re definiujƒÖ protoko≈Çy
 takie jak HTTP, MSN Messenger, FTP, Cisco VPN, Fasttrack, DNS,
 Gnutella, Quake, itp.
 

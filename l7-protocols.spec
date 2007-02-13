@@ -1,7 +1,7 @@
 %define		dashver		2007-01-14
 #
 Summary:	Protocol definitions files for l7-filter
-Summary(pl.UTF-8):   Pliki definicji protokołów dla l7-filter
+Summary(pl.UTF-8):	Pliki definicji protokołów dla l7-filter
 Name:		l7-protocols
 Version:	2007_01_14
 Release:	1

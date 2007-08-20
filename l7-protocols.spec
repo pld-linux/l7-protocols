@@ -1,9 +1,10 @@
 %define		dashver		2007-07-27
+%define		_ver	%(echo %{dashver} | tr - _)
 #
 Summary:	Protocol definitions files for l7-filter
 Summary(pl.UTF-8):	Pliki definicji protokołów dla l7-filter
 Name:		l7-protocols
-Version:	2007_07_27
+Version:	%{_ver}
 Release:	1
 License:	GPL
 Group:		Applications/Networking

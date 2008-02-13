@@ -1,4 +1,4 @@
-%define		dashver		2007-11-22
+%define		dashver		2008-02-10
 %define		_ver	%(echo %{dashver} | tr - _)
 #
 Summary:	Protocol definitions files for l7-filter
@@ -9,7 +9,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Networking
 Source0:	http://dl.sourceforge.net/l7-filter/%{name}-%{dashver}.tar.gz
-# Source0-md5:	162c988422fec85e1f1c24417a2c600c
+# Source0-md5:	5e3f980a98fc069ac40a8b6825369d87
 URL:		http://l7-filter.sourceforge.net/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

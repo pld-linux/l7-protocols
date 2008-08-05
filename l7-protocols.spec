@@ -5,7 +5,7 @@ Summary:	Protocol definitions files for l7-filter
 Summary(pl.UTF-8):	Pliki definicji protokołów dla l7-filter
 Name:		l7-protocols
 Version:	%{_ver}
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Networking
 Source0:	http://dl.sourceforge.net/l7-filter/%{name}-%{dashver}.tar.gz
